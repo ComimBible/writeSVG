@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    svg {
+      position:absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    /* .my-name {
+      animation: hideText 2s 5.6s forwards;
+    }
+    /* .company {
+      opacity: 0;
+      animation: hideText 2s 6s reverse forwards;
+    }*/
+
+    #text01,
+    #text02,
+    #text03,
+    #text04,
+    #text05,
+    #text06,
+    #text07,
+    #text08,
+    #text09,
+    #text10,
+    #text11,
+    #text12,
+    #text13,
+    #text14,
+    #text15,
+    #text16,
+    #text17,
+    #text18,
+    #text19,
+    #text20,
+    #text21,
+    #text22,
+    #text23,
+    #text24,
+    #text25 {
+      fill: none;
+      stroke-width: 1;
+      stroke: #5a5a5a;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: writeWord 15s linear infinite;
+    }
+
+    #text02 {
+      animation-delay: .5s;
+    }
+
+    #text03 {
+      animation-delay: 1s;
+    }
+
+    #text03 {
+      animation-delay: 1.2s;
+    }
+
+    #text04 {
+      animation-delay: 1.5s;
+    }
+
+    #text05 {
+      animation-delay: 1.8s;
+    }
+
+    #text06 {
+      animation-delay: 2.2s;
+    }
+
+    #text07 {
+      animation-delay: 2.5s;
+    }
+
+    #text08 {
+      animation-delay: 2.8s;
+    }
+
+    #text09 {
+      animation-delay: 3.2s;
+    }
+
+    #text10 {
+      animation-delay: 3.5s;
+    }
+
+    #text11 {
+      animation-delay: 4s;
+    }
+
+    #text12 {
+      animation-delay:4.3s;
+    }
+
+    #text13 {
+      animation-delay: 5s;
+    }
+
+    /* divide section */
+
+    /* #text14 {
+      animation-delay: 7.5s;
+    }
+
+    #text15 {
+      animation-delay: 8s;
+    }
+
+    #text16 {
+      animation-delay: 8.5s;
+    }
+
+    #text17 {
+      animation-delay: 9s;
+    }
+
+    #text18 {
+      animation-delay: 9.5s;
+    }
+
+    #text19 {
+      animation-delay: 10s;
+    }
+
+    #text20 {
+      animation-delay: 10.5s;
+    }
+
+    #text21 {
+      animation-delay: 11s;
+    }
+
+    #text22 {
+      animation-delay: 11.5s;
+    }
+    #text23 {
+      animation-delay: 12s;
+    }
+
+    #text24 {
+      animation-delay: 12.5s;
+    }
+
+    #text25 {
+      animation-delay: 13s;
+    } */
+
+    /*.box {
+      width: 350px;
+      height: 200px;
+      position: absolute; 
+      left: 50%; 
+      top: 50%;
+      transform: translate(-150%, -50%);
+      background: #fff;
+      animation: hideText 1s 5s forwards linear;
+    }*/
+
+
+    @keyframes writeWord {
+      20% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dashoffset: 1000;
+      }
+
+      100% {
+        stroke-dashoffset: 1000;
+      }
+    }
+
+    @keyframes hideText {
+      0%{
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <svg class="my-name" width="283" height="96" viewBox="0 0 283 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path id="text01" d="M14 18C27.6186 18 41.0968 18.3871 54 20C57.2074 20.4009 58.1057 32.4879 59.2222 35C61.2854 39.642 60 46.899 60 52" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text02" d="M29 46C27.8864 56.023 30 64.9061 30 75" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text03" d="M2 75C26.5695 75 50.5377 76 75 76" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text04" d="M119 11C119 16.6747 111.798 27.1881 108.444 31.5C106.388 34.1444 105.391 37.5115 103.222 40.2222C102.056 41.6798 100.234 48.916 103 42" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text05" d="M119 15C119.446 19.0149 125.688 26.7075 129 28.7778C133.877 31.826 136.643 35.2861 139 40" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text06" d="M154 29H181" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text07" d="M177 2C177 11.3385 178 20.9772 178 30C178 37.9908 180 46.1326 180 54" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text08" d="M164 65C163.643 62.1462 155.149 63 153 63C147.788 63 144.531 62.7754 140.5 66C137.955 68.0358 138.504 76.5224 139.056 79.5555C140.032 84.9261 142.789 90.4619 148 92.7777C155.289 96.0172 170 91.2698 170 82.5555C170 78.2842 170.169 74.3513 168 70.5555C166.594 68.0944 163.004 66.0081 162 64" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text09" d="M210 11C215.935 11 221.719 13 227.5 13C230.977 13 239 13.0606 239 17.5C239 26.9141 236 35.8075 236 45" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text10" d="M254 20C262.003 20 269.895 21 277.889 21C279.581 21 281.932 20.1367 281 22" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text11" d="M258 36H278" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text12" d="M279 3C279 18.6396 281 35.6673 281 51" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text13" d="M265 64C264.401 59.209 242.005 63.351 239.556 66.5C237.118 69.6342 237.727 76.6368 239.222 80C241.937 86.1083 246.604 91.4121 253.5 92.9444C265.829 95.6843 272 88.8999 272 77C272 67.427 270.245 60.1888 259 63" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  </svg>
+
+  <!-- <svg class="company" width="281" height="105" viewBox="0 0 281 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path  id="text14" d="M2.12732 13.2408C10.5043 13.2408 18.6885 17.0953 27.1815 17.0953C32.4675 17.0953 38.3306 20.4366 35.8184 26.0891C33.9178 30.3656 34.0792 37.4489 33.0346 42.1495C31.8363 47.5421 31.5029 50.852 29.1088 55.6402" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text15" d="M2.12732 35.0829C11.8042 35.0829 21.7643 36.3678 31.6784 36.3678" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text16" d="M57.3751 35.0829H75.3627" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path  id="text17"d="M75.3627 8.1015C75.3627 17.5806 74.0779 26.2825 74.0779 35.7254C74.0779 44.052 75.3627 53.1577 75.3627 60.7796" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text18" d="M25.2543 72.343C25.2543 78.0168 23.9695 83.7282 23.9695 89.6882C23.9695 96.8454 24.2014 99.3245 31.6784 99.3245C36.7476 99.3245 43.9391 99.7432 49.095 100.681C52.2826 101.26 65.2025 104.316 67.6537 101.252C71.3834 96.5896 70.2236 90.3301 72.5075 85.1913C73.4938 82.9721 72.793 79.2453 72.793 76.8399C72.793 71.7382 64.0881 73.6278 60.5871 73.6278C48.8095 73.6278 37.0319 73.6278 25.2543 73.6278" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text19" d="M121.617 37.6526C111.582 37.6526 100.393 43.2204 99.7745 54.3554C99.4495 60.2048 98.1873 64.5395 99.8458 70.3444C101.093 74.7094 109.03 75.2398 111.338 78.1248C113.428 80.7372 125.432 77.0715 128.041 75.912C133.388 73.5354 134.465 66.667 134.465 61.422C134.465 49.5642 133.16 38.9374 119.047 38.9374" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text20" d="M165.301 22.2346V87.761" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text21" d="M167.87 56.925C172.513 56.925 178.019 55.6402 183.288 55.6402" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text22" d="M237.251 18.3801C231.708 17.7642 227.93 14.167 221.833 14.5256C218.376 14.729 213.083 17.5244 211.269 20.9498C206.854 29.29 205.585 43.2794 215.409 47.6457C223.895 51.4172 236.068 51.8783 240.107 42.7919C243.13 35.9901 243.819 21.0217 235.967 17.0953" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text23" d="M275.796 1.67731C275.796 11.8608 275.796 22.0443 275.796 32.2277C275.796 35.7102 275.936 54.2855 273.227 55.6402" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text24"d="M230.827 72.343C233.514 72.6789 232.112 88.9936 232.112 92.2579C232.112 99.3725 238.82 100.609 244.96 100.609C251.539 100.609 258.005 101.548 264.233 101.894C269.866 102.207 277.975 102.515 278.366 95.47C278.709 89.3035 278.366 83.0173 278.366 76.84C278.366 73.8365 279.638 69.7734 275.796 69.7734C273.821 69.7734 268.086 70.7359 266.802 69.131C264.806 66.6351 250.667 68.4886 247.53 68.4886C242.373 68.4886 226.955 69.7734 232.112 69.7734" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text25" d="M144.101 6.81666C149.064 6.81666 149.127 8.90385 151.168 13.2408C151.168 6.28434 164.016 3.45703 164.016 11.3136C164.016 15.6259 155.499 20.3113 152.738 22.5201C146.334 27.6437 144.896 19.5298 140.247 15.8105C137.156 13.3381 140.564 6.81666 144.101 6.81666Z" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  </svg> -->
+          
+  <div class="box"></div>
+</body>
+</html>

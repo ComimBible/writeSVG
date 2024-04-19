@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    svg {
+      position:absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #text01,
+    #text02,
+    #text03,
+    #text04,
+    #text05,
+    #text06,
+    #text07,
+    #text08 {
+      fill: none;
+      stroke-width: 2;
+      stroke: orange;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: writeWord 5s linear forwards;
+    }
+
+
+    #text02 {
+      animation-delay: 1s;
+    }
+
+    #text03 {
+      animation-delay: 2s;
+    }
+
+    #text03 {
+      animation-delay: 2.3s;
+    }
+
+    #text04 {
+      animation-delay: 3.5s;
+    }
+
+    #text05 {
+      animation-delay: 4s;
+    }
+
+    #text06 {
+      animation-delay: 4.5s;
+    }
+
+    #text07 {
+      animation-delay: 5s;
+    }
+
+    #text08 {
+      animation-delay: 5.5s;
+    }
+
+    @keyframes writeWord {
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <svg width="161" height="87" viewBox="0 0 161 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path id="text01" d="M10 5C23.1186 5 36.5549 6 49.4444 6C51.8126 6 61.1678 4.61229 62.7778 6.22222C64.828 8.27249 62 15.9869 62 18.5C62 21.7444 62.5965 30.8991 59 30" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text02" d="M2 32C2.542 36.336 36.0843 35 41.5556 35C51.3704 35 80.8148 35 71 35" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text03" d="M9 49C12.0385 49 64.8501 47.4514 65 50C65.2509 54.2661 66.1316 65 60.4444 65C50.0457 65 37.1995 62.789 27.5 64.9444C21.6253 66.2499 15.945 63.6656 12.7778 70C10.7849 73.9856 8.99631 84 15 84C24.7835 84 34.3792 83 44 83C46.806 83 66.9067 84.8134 66 83" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text04" d="M103 9C104.746 10.9639 104.426 15.4184 105 18C105.797 21.5862 106 24.7764 106 28.4444C106 34.0389 103.73 39.5038 102.944 45C102.415 48.705 99.9962 52.6492 98.2222 56C95.7977 60.5797 92.364 63.9081 95 56" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text05" d="M104 15C104 19.7473 102.949 23.5204 104.056 28.5C104.973 32.6265 106.763 36.7307 107 41C107.339 47.0996 110.082 57.0409 116 60" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text06" d="M130 11C130 18.6748 133.353 36.5834 127.778 42.7778C125.992 44.7621 113.817 61.817 113 61" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text07" d="M129 14C129 23.0644 128.923 32.0925 132 40.5556C134.418 47.2063 136.914 53.8282 140 60" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path id="text08" d="M158 2C158 9.58002 159 16.6466 159 24.2222C159 33.1563 158 42.2803 158 51C158 55.5614 159.621 63.8538 157.778 68C156.04 71.91 159.264 83.9339 155 85" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+   
+</body>
+</html>
